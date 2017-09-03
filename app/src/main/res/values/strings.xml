@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">HolaMundo1</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="CheckBox1">Salpicadura/Espray </string>
+    <string name="CheckBox2"> Ser golpeado por algo</string>
+    <string name="CheckBox3"> Peligro de quemadura</string>
+    <string name="CheckBox4"> Exposición a producto químico</string>
+    <string name="CheckBox5"> Peligro en la conducción</string>
+    <string name="CheckBox6"> Peligro Electrico</string>
+    <string name="CheckBox7"> Medio Ambiente</string>
+    <string name="CheckBox8"> Equipos/Herramientas - Condición</string>
+    <string name="CheckBox9"> Equipos/Herramientas - Utilización</string>
+    <string name="CheckBox10"> Caída desde altura/Elevación </string>
+    <string name="CheckBox11"> Peligro de Incendio/Fuego</string>
+    <string name="CheckBox12"> Orden y Limpieza</string>
+    <string name="CheckBox13"> Etiquetas/Señalización</string>
+    <string name="CheckBox14"> Peligro de Corte/Laceración</string>
+    <string name="CheckBox15"> Fuga/Derrame de Material</string>
+    <string name="CheckBox16"> Nivel de Ruido</string>
+    <string name="CheckBox17"> Sobreesfuerzo/Ergonomía</string>
+    <string name="CheckBox18">Paying Attention to the Task</string>
+    <string name="CheckBox19"> Fatiga/Cansancio</string>
+    <string name="CheckBox20"> EPIs - Ojos</string>
+    <string name="CheckBox21"> EPIs - Manos </string>
+    <string name="CheckBox22"> EPIs - Oídos</string>
+    <string name="CheckBox23"> EPIs - Otros</string>
+    <string name="CheckBox24"> Atrapamientos</string>
+    <string name="CheckBox25"> Mala utilización de productos</string>
+    <string name="CheckBox26"> Security</string>
+    <string name="CheckBox27"> Resbalar/Tropezar o Caer al mismo nivel</string>
+    <string name="CheckBox28"> Mirando por dónde pasa</string>
+    <string name="CheckBox29"> Incumple otras normas/procedimentos</string>
+    <string name="CheckBox30">Otro    (Especificar)</string>
+    <string name="buttonComportamiento">Comportamiento</string>
+    <string name="buttonCondicion">Condición</string>
+    <string name="buttonRefuerzoPositivo">Refuerzo Positivo</string>
+
+    <string-array name="Categoria">
+        <item>Salpicadura/Espray </item>
+        <item> Ser golpeado por algo</item>
+        <item> Peligro de quemadura</item>
+        <item> Exposición a producto químico</item>
+        <item> Peligro en la conducción</item>
+        <item> Peligro Electrico</item>
+        <item> Medio Ambiente</item>
+        <item> Equipos/Herramientas - Condición</item>
+        <item> Equipos/Herramientas - Utilización</item>
+        <item> Caída desde altura/Elevación </item>
+        <item> Peligro de Incendio/Fuego</item>
+        <item> Orden y Limpieza</item>
+        <item> Etiquetas/Señalización</item>
+        <item> Peligro de Corte/Laceración</item>
+        <item> Fuga/Derrame de Material</item>
+        <item> Nivel de Ruido</item>
+        <item> Sobreesfuerzo/Ergonomía</item>
+        <item>Paying Attention to the Task</item>
+        <item> Fatiga/Cansancio</item>
+        <item> EPIs - Ojos</item>
+        <item> EPIs - Manos </item>
+        <item> EPIs - Oídos</item>
+        <item> EPIs - Otros</item>
+        <item> Atrapamientos</item>
+        <item> Mala utilización de productos</item>
+        <item> Security</item>
+        <item> Resbalar/Tropezar o Caer al mismo nivel</item>
+        <item> Mirando por dónde pasa</item>
+        <item> Incumple otras normas/procedimentos</item>
+        <item>Otro    (Especificar)</item>
+    </string-array>
+
+
+    <string-array name="Repuestos">
+        <item>Respuesto 1</item>
+        <item>Respuesto 2</item>
+        <item>Respuesto 3</item>
+        <item>Respuesto 4</item>
+        <item>Respuesto 5</item>
+        <item>Respuesto 6</item>
+        <item>Respuesto 7</item>
+        <item>Respuesto 8</item>
+        <item>Respuesto 9</item>
+        <item>Respuesto 10</item>
+        <item>Respuesto 11</item>
+        <item>Respuesto 12</item>
+        <item>Respuesto 13</item>
+        <item>Respuesto 14</item>
+        <item>Respuesto 15</item>
+        <item>Respuesto 16</item>
+        <item>Respuesto 17</item>
+        <item>Respuesto 18</item>
+
+    </string-array>
+</resources>

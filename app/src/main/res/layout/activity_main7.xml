@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="cliente"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtZona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtCliente"
+        android:layout_below="@+id/edtCliente"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="zona"
+        android:inputType="textPersonName"
+       />
+
+    <EditText
+        android:id="@+id/edtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtZona"
+        android:layout_below="@+id/edtZona"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="fecha"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDescripcionAPT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/edtFecha"
+        android:layout_below="@+id/edtFecha"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="decripción APT ¿cuál es el peligro o accidente potencial"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/edtAccionTomada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtDescripcionAPT"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/edtDescripcionAPT"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="¿Qué hizo para corregir o controlar el peligro?"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textViewCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAccionTomada" />
+
+    <TextView
+        android:id="@+id/textViewtipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCategoria" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINALIZAR"
+        android:layout_below="@+id/textViewCategoria"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edtAccionTomada">
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
